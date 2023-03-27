@@ -1,4 +1,4 @@
-# Daniel Gomez
+# Danielo Gomez
 
 
-danelgomez.com
+danielogomez.com
