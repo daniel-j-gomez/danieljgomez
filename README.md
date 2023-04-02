@@ -1,4 +1,4 @@
-# Daniel G. Santos
+# Daniel Gomez-Santos
 
 
-dgsantos.com
+danielgomezsantos.com
