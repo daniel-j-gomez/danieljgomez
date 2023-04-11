@@ -1,4 +1,4 @@
 # Daniel Gomez-Santos
 
 
-danielgomezsantos.com
+dgomez.dev
