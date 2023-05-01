@@ -1,4 +1,4 @@
 # This is the main web site for myself, my research, videos, community and contact information
 
 
-DanGomez.us
+gomezd.dev
