@@ -1,5 +1,3 @@
-# This is the main website for myself, my research, videos, community and contact information
+# This is the main website for myself, my research, photos, videos, community and contact information
 
 djgomez.net
-dgomez.dev
-gomezd.dev
