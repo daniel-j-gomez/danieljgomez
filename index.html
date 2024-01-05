@@ -4,185 +4,201 @@
 	html5up.net | Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<!-- 	This is the "Head" of the HTML document.
+<!-- 	This is the "Head" of the HTML document.
 		It contains information that isn't displayed on the actual page, but is useful
 		for the web browser when loading the page	
 	-->
-	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>Daniel Gomez</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
+
+<head>
+	<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
+	<title>Daniel Gomez</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
 			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
 			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
 			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
 		-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
 			will load a separate set of CSS stylings from the file assets/css/noscript.css
 			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
 			available. 
 		-->
-		<link rel="icon" type="image/dna-icon" href="images/dna-cloud.ico">
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NWXDK6ZZT6"></script>
-		<script>
+	<link rel="icon" type="image/dna-icon" href="images/dna-cloud.ico">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NWXDK6ZZT6"></script>
+	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'G-NWXDK6ZZT6');
-		</script>
-		<script src="https://kit.fontawesome.com/e495d58fd3.js" crossorigin="anonymous"></script>
-		<style>
-			.gallery {
-			  display: flex;
-			  flex-wrap: wrap;
-			}
-			
-			.gallery-item {
-			  width: 200px;
-			  height: 200px;
-			  margin: 10px;
-			}
-			
-			.gallery-item img {
-			  width: 100%;
-			  height: 100%;
-			  object-fit: cover;
-			}
-		  </style>
-		<link rel="stylesheet" href="/assets/css/academicons.min.css"/>  
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body class="is-preload">
+	</script>
+	<script src="https://kit.fontawesome.com/e495d58fd3.js" crossorigin="anonymous"></script>
+	<style>
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+		}
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
+		.gallery-item {
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+		}
 
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Daniel Joseph Gomez 
-								</h1>
-								<p>
-									<strong>I am a Life Sciences Computational Biology (Data Scientist) Lover</strong>
-									<br>Genomics & Computational Systems Biology<br>
-									Integrative Bioinformatics Master's student at CSUEB Biology<br>
-									Graduate Research Student at the Department of Genetics, Stanford Medicine<br>
-								</p>
-								<!-- 	Here is an image where you can put a picture of you. 
+		.gallery-item img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	</style>
+	<link rel="stylesheet" href="/assets/css/academicons.min.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+<!-- The body is the location where your site's content will go -->
+
+<body class="is-preload">
+
+	<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+	<div id="wrapper">
+
+		<!-- This is where the content that appears on page load exists -->
+		<header id="header">
+			<!-- This is the main content of the front page -->
+			<div class="content">
+				<div class="inner">
+					<!-- Here is a heading where you can put your name -->
+					<h1>
+						Daniel Joseph Gomez
+					</h1>
+					<p>
+						<strong>Genomics & Computational Systems Biology</strong><br>
+						Integrative Bioinformatics Master's student at CSUEB Biology<br>
+						Graduate Research Student at the Department of Genetics, Stanford Medicine<br>
+					</p>
+					<!-- 	Here is an image where you can put a picture of you. 
 									You can change the width and height attributes below to change how large
 									your image is.
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<!-- <img src="images/" style="width:200px; height:350px; border-radius: 50%; object-fit: cover;">
+					<!-- <img src="images/" style="width:200px; height:350px; border-radius: 50%; object-fit: cover;">
 								 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
-								-->								
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<br>
-								<a href="assets/data/resume.pdf" target="_blank">Download my CV</a>
-								<br> 
-								<br>
-								<a href="https://www.danielgomez.bio" target="_blank">Biography webpage</a>
-								<br> 
-							</div>
-						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
+								-->
+					<!-- Here is a paragraph where you can put a link to your CV -->
+					<br>
+					<a href="assets/data/resume.pdf" target="_blank">Download my CV</a>
+					<br>
+					<br>
+					<a href="https://www.danielgomez.bio" target="_blank">Biography webpage</a>
+					<br>
+				</div>
+			</div>
+			<!-- This is the navigation menu -->
+			<nav>
+				<!-- This element makes an "Unordered List" -->
+				<ul>
+					<!-- This is a "List Item" -->
+					<li>
+						<!-- 	Note that this links to #about, which will move the page to wherever
 										the element with the id "about" exists.
 									-->
-									<a href="#about">About</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#videos">Videos</a>
-								</li>		
-								<li>
-									<a href="#gallery">Gallery</a>
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#research">Research</a>
+					</li>
+					<li>
+						<a href="#videos">Videos</a>
+					</li>
+					<!-- 
+					<li>
+						<a href="#gallery">Gallery</a>
+					</li> -->
+					<li>
+						<a href="#community">Community</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+					<!-- 	You can add another button to your navigation menu by adding
 									another List Item with a link inside of it.
 								-->
-							</ul>
-						</nav>
-					</header>
+				</ul>
+			</nav>
+		</header>
 
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
+		<!-- These are the "cards" that appear when you click the buttons on the main page -->
+		<div id="main">
+			<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
 							button links to.
 						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<span class="image main">
-								<img src="images/SCO.png" alt=""/>
-							</span>
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-								
-								<strong>Research fields: </strong>Multiomics data analyses, Exerkine Translational Research, Bioinformatics, Computational and Systems Biology<br>
-								<br>
-								<b><u>Current Mission</u></b>: Learn advanced multiomics, bioinformatics, computational biology, and data analysis in the GTEx and the MoTrPAC Data Hub for the purpose of mapping exerkines to support human health, resilence, and disease prevention. I construct exerkine networks, and find the patterns in important -omics and -kines connections in their networks analysis. 
-								I inquiry genotype-to-tissue gene expression and carry that onward to phenomic (genotype-to-phenotype) analysis of tissue interactomes. I'm analyzing the multi-omics of rodents and humans and will map exerkines at transcriptome, proteins, metabolites and lipids level. These exerkines are to be mapped across all organs in the rat and relevant human organs while keeping focused on the endurance exercise training in rodents. 
-								In this way, it'll contribute to the molecular map of exercise where we can understand how physical activity improves human health. 
-								<br>
-								
-								<br>
-								<b>Positions</b>
-								<ol>
-									<li>Graduate Research Student (Snyder Lab)<br>
-										<a href="https://med.stanford.edu/sgtc.html?tab=proxy">Stanford Genome Technology Center (SGTC)</a><br>
-										<a href="https://med.stanford.edu/genetics.html">Department of Genetics</a><br>
-										<a href="https://med.stanford.edu/">Stanford University School of Medicine</a><br>
-										Department of Biological Sciences, Califonia State University, East Bay<br>
-									</li>
-									<li>Volunteer Neuroscientist and Neurosurgery Researcher (Steinberg Lab) <br> 
-										<a href="https://med.stanford.edu/neurosurgery.html">Department of Neurosurgery</a> <br>
-										<a href="https://med.stanford.edu/">Stanford University School of Medicine</a><br>
-										<!--  | <a href="https://neuroscience.stanford.edu/">Wu Tsai Neurosciences Institute</a> | <a href="https://chemh.stanford.edu/">Sarafan ChEM-H</a><br> 
+			<article id="about">
+				<h2 class="major">About Me</h2>
+				<!-- Here is an image that you can customize for this page -->
+				<span class="image main">
+					<img src="images/SCO.png" alt="" />
+				</span>
+				<!-- Here are three paragraphs where you can fill out information about yourself -->
+				<p>
+
+					<strong>Research fields: </strong>Multiomics data analyses, Exerkine Translational Research,
+					Bioinformatics, Computational and Systems Biology<br>
+					<br>
+					<b><u>Current Mission</u></b>: Learn advanced multiomics, bioinformatics, computational biology, and
+					data analysis in the GTEx and the MoTrPAC Data Hub for the purpose of mapping exerkines to support
+					human health, resilence, and disease prevention. I construct exerkine networks, and find the
+					patterns in important -omics and -kines connections in their networks analysis.
+					I inquiry genotype-to-tissue gene expression and carry that onward to phenomic
+					(genotype-to-phenotype) analysis of tissue interactomes. I'm analyzing the multi-omics of rodents
+					and humans and will map exerkines at transcriptome, proteins, metabolites and lipids level. These
+					exerkines are to be mapped across all organs in the rat and relevant human organs while keeping
+					focused on the endurance exercise training in rodents.
+					In this way, it'll contribute to the molecular map of exercise where we can understand how physical
+					activity improves human health.
+					<br>
+
+					<br>
+					<b>Positions</b>
+				<ol>
+					<li>Graduate Research Student (Snyder Lab)<br>
+						<a href="https://med.stanford.edu/sgtc.html?tab=proxy">Stanford Genome Technology Center
+							(SGTC)</a><br>
+						<a href="https://med.stanford.edu/genetics.html">Department of Genetics</a><br>
+						<a href="https://med.stanford.edu/">Stanford University School of Medicine</a><br>
+						Department of Biological Sciences, Califonia State University, East Bay<br>
+					</li>
+					<li>Volunteer Neuroscientist and Neurosurgery Researcher (Steinberg Lab) <br>
+						<a href="https://med.stanford.edu/neurosurgery.html">Department of Neurosurgery</a> <br>
+						<a href="https://med.stanford.edu/">Stanford University School of Medicine</a><br>
+						<!--  | <a href="https://neuroscience.stanford.edu/">Wu Tsai Neurosciences Institute</a> | <a href="https://chemh.stanford.edu/">Sarafan ChEM-H</a><br> 
 									</li>
 									<li>Virtual Volunteer Associate Fellow<br>
 										Institute of Molecular Medicine and Infectious Diseases (IMMID) <br>
 										Department of Microbiology & Immunology, <a href="https://drexel.edu/medicine/about/departments/microbiology-immunology/research/the-jain-lab/">Drexel Medicine</a></li>
 									<li>Vice President (VP) of Science, Technology, Engineering, Mathematics (STEM) Programs at Myplaceisahappy1 (MPH1) (501c3 non-profit)</li> -->
-								</ol>
-								<hr>
-								<h3>Research Interests</h3>
-								<p>
-									<body>
-										<ol>
-											<li>Precision Medicine, Clinical Science and Biomedical Research</li>
-											<li>Multiomics analysis and network physiomes</li>
-											<li>Biochemistry and Molecular Biology<br>
-											<li>Computational Systems Biology</li>	
-											<li>Structural Biology</li>
-										</ol>
-									</body>
-								</p>
-								<!--
+				</ol>
+				<hr>
+				<h3>Research Interests</h3>
+				<p>
+
+					<body>
+						<ol>
+							<li>Precision Medicine, Clinical Science and Biomedical Research</li>
+							<li>Multiomics analysis and network physiomes</li>
+							<li>Biochemistry and Molecular Biology<br>
+							<li>Spatial Multiomics and Single-Cell Data analysis</li>
+							<li>Computational Systems Biology</li>
+							<li>Structural Biology</li>
+						</ol>
+					</body>
+				</p>
+				<!--
 								<h3>Labor Duties & Assignments</h3>
 								<p>
 									<b><o>Consultantships</o></b>
@@ -193,99 +209,125 @@
 										<li>Genes & Immunity</li>
 										<li>Human Brain-Machine Interface</li>
 									</ol>
-								</p> -->		
-								<hr>
-								<!-- Items contained in <b> tags are bolded! -->
-								<h2>Education</h2><br>
-								<i>Graduate Studies</i><br>
-								The Snyder Lab, Department of Genetics, Stanford University School of Medicine <br>
-								M.S. Biological Sciences: Integrative Bioinformatics (<i>Anticipated December 2024</i>)<br>
-								California State University, East Bay, <a href ="https://www.csueastbay.edu/biology/">CSUEB</a>, 2022 - Present (Anticipated 2024)<br><br> 
-								<!-- <strong>University Thesis</strong> at <a href="https://www.genetics.stanford.edu/">Stanford Genetics</a><br> -->
-								<br>
-								
-								Fundamentals of Data Science in Precision Medicine and Cloud Computing<br>(<i>Certificate Pending</i>) | 
-								<a href="https://deepdata.stanford.edu/"> Stanford Deep Data Research Center </a>| Stanford Data Ocean <br>
-								Stanford Medicine | Department of Genetics <br>
-								<br><br>
-								
-								Structural Biology and Chemical & Systems Biology Graduate Intern, Summer 2022<br>
-								<a href="https://med.stanford.edu/cancer.html">Stanford Cancer Institute</a> Stanford Medicine
-								<br>	
+								</p> -->
+				<hr>
+				<!-- Items contained in <b> tags are bolded! -->
+				<h2>Education</h2><br>
+				<i>Graduate Studies</i><br>
+				<!-- <strong>University Thesis</strong> at <a href="https://www.genetics.stanford.edu/">Stanford Genetics</a><br> -->
+				The Snyder Lab, Department of Genetics, Stanford University School of Medicine <br>
+				M.S. Biological Sciences: Integrative Bioinformatics (<i>Anticipated December 2024</i>)<br>
+				California State University, East Bay, <a href="https://www.csueastbay.edu/biology/">CSUEB</a>, 2022 -
+				Present (Anticipated 2024)<br><br>
+				<br>
 
-								<h3>Integrative (Bulk, Spatial & Single-cell biology) Multiomics and Translational Medicine Graduate Training: Courses & Workshops</h3><br>
-									
-								
-									<h4>Stanford Genetics Conference on Structural Variants and DNA Repeats (SVAR23)</h4>
+				Fundamentals of Data Science in Precision Medicine and Cloud Computing<br>(<i>Certificate Pending</i>) |
+				<a href="https://deepdata.stanford.edu/"> Stanford Deep Data Research Center </a>| Stanford Data Ocean
+				<br>
+				Stanford Medicine | Department of Genetics <br>
+				<br><br>
 
-								
-									<h4>Computational Biology + Spatial Biology</h4>
-											<u>2023</u>
-											<ul>
-											2nd Annual Spatial Biology Workshop (Angelo Lab)
-											Stanford School of Medicine, Li Ka Shing Learning and Knowledge Center (LKSC)
-											<ul>
-												<li>Cell Detection and Classification</li>
-												<li>Applications of Spatial Biology I & II</li>
-												<li>De Novo Mass Spectrometry</li>
-												<li>The Scientific Spectrum of Spatial Analysis</li>
-												<li>Workshop: H&E bootcamp</li>
-												<li>Follow-up virtual-learning</li>
-											</ul>
-										
-										<u>2022</u>
-										<li><b>CSU Northridge </b><a href = "https://youtu.be/7ystwS4R3nY", class="external-link">Data Driven Discovery of Computational Biology and Modern Molecular Biology</a></li><br>
-										<!--
+				Structural Biology and Chemical & Systems Biology Graduate Intern, Summer 2022<br>
+				<a href="https://med.stanford.edu/cancer.html">Stanford Cancer Institute</a> Stanford Medicine
+				<br>
+
+				<h3>Integrative (Bulk, Spatial & Single-cell biology) Multiomics and Translational Medicine Graduate
+					Training: Courses & Workshops</h3><br>
+
+
+				<h4>Stanford Genetics Conference on Structural Variants and DNA Repeats (SVAR23)</h4>
+
+
+				<h4>Computational Biology + Spatial Biology</h4>
+				<u>2023</u>
+				<ul>
+					2nd Annual Spatial Biology Workshop (Angelo Lab)
+					Stanford School of Medicine, Li Ka Shing Learning and Knowledge Center (LKSC)
+					<ul>
+						<li>Cell Detection and Classification</li>
+						<li>Applications of Spatial Biology I & II</li>
+						<li>De Novo Mass Spectrometry</li>
+						<li>The Scientific Spectrum of Spatial Analysis</li>
+						<li>Workshop: H&E bootcamp</li>
+						<li>Follow-up virtual-learning</li>
+					</ul>
+
+					<u>2022</u>
+					<li><b>CSU Northridge </b><a href="https://youtu.be/7ystwS4R3nY" , class="external-link">Data Driven
+							Discovery of Computational Biology and Modern Molecular Biology</a></li><br>
+					<!--
 										<h4>Neurosurgery & Neuroimaging</h4>
 										<li>Neurosciences Preclinical Imaging Laboratory (NPIL) - Independent User (Training)</li>
 										<li>SCI3 MRI-FLAIR (Stanford Neuroimaging Training)</li>
-										<li>Spatial multiomics</li>
 										<br>
 										-->
-									
-									<h4>Structural Biology</h4>
-									<h4>Cryo-Electron Microscopy and Tomography (3DEM & SPT)</h4>
-									<li><a href = "https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=BIOE+320%3A+Biological+cryogenic+electron+microscopy+and+tomography&collapse=">BioE 320 - Biological cryogenic microscopy and tomography</a><br>
-										Stanford | <a href = "https://bioengineering.stanford.edu/">Bioengineering</a><br>
-										Schools of Engineering & Medicine</li>
-									<li><a href="https://cryoem-s2c2.slac.stanford.edu/training/workshops/2023-cryo-electron-microscopy-workshop">2023 Image Processing Workshop for Cryo-Electron Microscopy</a><br> 
-									<b>S2C2</b> | Stanford-SLAC Cryo-EM Center | <b>SCSC</b> Sample Preparation for Cryo-Electron Tomography</li>
-									<li><a href="https://cryoem.wisc.edu/">2023 Tomography and Cryo-FIB Workshop</a><br> 
-									UW-Madison | Midwest Center for Cryo Electron Tomography (MCCET)
-									<li><a href="https://cryoem.wisc.edu/">CEMRC Dragonfly Practical Workshop: Application to Tomography Data</a><br> 
-									Penn State College of Medicine | UW-Madison CEMRC and MCCET</li>
-									<!---
+
+					<h4>Structural Biology</h4>
+					<h4>Cryo-Electron Microscopy and Tomography (3DEM & SPT)</h4>
+					<li><a
+							href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=BIOE+320%3A+Biological+cryogenic+electron+microscopy+and+tomography&collapse=">BioE
+							320 - Biological cryogenic microscopy and tomography</a><br>
+						Stanford | <a href="https://bioengineering.stanford.edu/">Bioengineering</a><br>
+						Schools of Engineering & Medicine</li>
+					<li><a
+							href="https://cryoem-s2c2.slac.stanford.edu/training/workshops/2023-cryo-electron-microscopy-workshop">2023
+							Image Processing Workshop for Cryo-Electron Microscopy</a><br>
+						<b>S2C2</b> | Stanford-SLAC Cryo-EM Center | <b>SCSC</b> Sample Preparation for Cryo-Electron
+						Tomography
+					</li>
+					<li><a href="https://cryoem.wisc.edu/">2023 Tomography and Cryo-FIB Workshop</a><br>
+						UW-Madison | Midwest Center for Cryo Electron Tomography (MCCET)
+					<li><a href="https://cryoem.wisc.edu/">CEMRC Dragonfly Practical Workshop: Application to Tomography
+							Data</a><br>
+						Penn State College of Medicine | UW-Madison CEMRC and MCCET</li>
+					<!---
 									<li><a href="https://www.jove.com/t/64435/deep-learning-based-segmentation-of-cryo-electron-tomograms">JoVE protocol for deep learning-based segmentation of cryo-electron tomography </a>(Heebner et al 2022)</li>
 									-->
-									<li><a href="https://cryoem.wisc.edu/">42nd Steenbock Symposium: “Opening the Doors to Cryo-EM"</a><br> 
-									UW-Madison, Department of Biochemistry, UW-Madison Cryo-Electron Microscopy Research Center (<b>CEMRC</b>) and Midwest Center for Cryo Electron Tomography (<b>MCCET</b>)</li><br>
+					<li><a href="https://cryoem.wisc.edu/">42nd Steenbock Symposium: “Opening the Doors to
+							Cryo-EM"</a><br>
+						UW-Madison, Department of Biochemistry, UW-Madison Cryo-Electron Microscopy Research Center
+						(<b>CEMRC</b>) and Midwest Center for Cryo Electron Tomography (<b>MCCET</b>)</li><br>
 
-									<h4>Macromolecular Crystallography (MX)</h4>
-									<li><a href="https://www-ssrl.slac.stanford.edu/rapidata/rapidata-2023/">RapiData 2023 at SSRL</a> | <a href ="/assets/data/D_Gomez.pdf">Certificate</a><br>
-									Structural Molecular Biology (SMB) Division | Macromolecular Crystallography <br> <a href="https://www-ssrl.slac.stanford.edu/">Stanford Synchrotron Radiation Lightsource</a> (SSRL)</li>
-									<br>
+					<h4>Macromolecular Crystallography (MX)</h4>
+					<li><a href="https://www-ssrl.slac.stanford.edu/rapidata/rapidata-2023/">RapiData 2023 at SSRL</a> |
+						<a href="/assets/data/D_Gomez.pdf">Certificate</a><br>
+						Structural Molecular Biology (SMB) Division | Macromolecular Crystallography <br> <a
+							href="https://www-ssrl.slac.stanford.edu/">Stanford Synchrotron Radiation Lightsource</a>
+						(SSRL)</li>
+					<br>
 
-									<h4>Neurosciences & Neurovirology</h4>
-									<li><a href ="https://manoa.hawaii.edu/catalog/courses/trmd-607-neurovirology-2/">TRMD 607 - Neurovirology</a>, <a href ="https://manoa.hawaii.edu/catalog/courses/cmb-606-introduction-to-neurosciences-4/">CMB 606 - Neurosciences</a><br>
-									Department of Tropical Medicine, Medical Microbiology, and Pharmacology (<a href ="http://manoa.hawaii.edu/tropicalmedicine/">TRMD</a>)<br>
-									Department of Cell & Molecular Biology (<a href ="https://cmbdept.jabsom.hawaii.edu/">CMB</a>)<br>
-									<b>John A. Burns School of Medicine </b>, <a href = "https://jabsom.hawaii.edu/">JABSOM</a>, 2012 - 2013<br>
-									Department of Neurology and Neurosurgery <br>
-									Richard T. Johnson <a href="https://www.hopkinsmedicine.org/neurology_neurosurgery/centers_clinics/neuroimmunology_and_neurological_infections/">Division of Neuroimmunology and Neurological Infections</a><br>
-									<b>Johns Hopkins University School of Medicine</b>, <a href = "https://www.hopkinsmedicine.org/som/">JHUSOM</a>, 2012</li><br>
+					<h4>Neurosciences & Neurovirology</h4>
+					<li><a href="https://manoa.hawaii.edu/catalog/courses/trmd-607-neurovirology-2/">TRMD 607 -
+							Neurovirology</a>, <a
+							href="https://manoa.hawaii.edu/catalog/courses/cmb-606-introduction-to-neurosciences-4/">CMB
+							606 - Neurosciences</a><br>
+						Department of Tropical Medicine, Medical Microbiology, and Pharmacology (<a
+							href="http://manoa.hawaii.edu/tropicalmedicine/">TRMD</a>)<br>
+						Department of Cell & Molecular Biology (<a
+							href="https://cmbdept.jabsom.hawaii.edu/">CMB</a>)<br>
+						<b>John A. Burns School of Medicine </b>, <a href="https://jabsom.hawaii.edu/">JABSOM</a>, 2012
+						- 2013<br>
+						Department of Neurology and Neurosurgery <br>
+						Richard T. Johnson <a
+							href="https://www.hopkinsmedicine.org/neurology_neurosurgery/centers_clinics/neuroimmunology_and_neurological_infections/">Division
+							of Neuroimmunology and Neurological Infections</a><br>
+						<b>Johns Hopkins University School of Medicine</b>, <a
+							href="https://www.hopkinsmedicine.org/som/">JHUSOM</a>, 2012
+					</li><br>
 
-								</ul>
-							
-								<i>Undergraduate</i><br>
-								<a href="https://www.parchment.com/u/award/9fd083fdc52c0fbd34814acfc02a48fe">B.S. Biology: Cell and Molecular Biology</a><br>
-								San Francisco State University, <a href ="https://sfsu.edu/">SFSU</a>, 2020 - 2022<br>
-								Molceular Cell Biology <br>
-								University of Hawaii at Mānoa, <a href = "https://manoa.hawaii.edu/">UHM</a>, 2010 - 2013<br>
-								Ohlone College, 2008 - 2015 <br>
-								Modesto Junior College, MJC, 2003 - 2009 
-								<br>
+				</ul>
 
-								<!--- 
+				<i>Undergraduate</i><br>
+				<a href="https://www.parchment.com/u/award/9fd083fdc52c0fbd34814acfc02a48fe">B.S. Biology: Cell and
+					Molecular Biology</a><br>
+				San Francisco State University, <a href="https://sfsu.edu/">SFSU</a>, 2020 - 2022<br>
+				Molceular Cell Biology <br>
+				University of Hawaii at Mānoa, <a href="https://manoa.hawaii.edu/">UHM</a>, 2010 - 2013<br>
+				Ohlone College, 2008 - 2015 <br>
+				Modesto Junior College, MJC, 2003 - 2009
+				<br>
+
+				<!--- 
 								
 								<i>High School</i><br>
 								<a href="https://mhs.mcs4kids.com/o/modesto">Modesto High School</a>, Class of 2007<br>
@@ -296,9 +338,9 @@
 								International Violinist, Modesto High School Orchestra<br> France and Beligum, European Union (2006)<br> 
 								English Instructor, Nongkhai Technical College, Nongkhai, Thailand (2005) <br>
 								Violinist, <a href="https://www.modestosymphony.org/">Modesto Symphony Orchestra (<b>MSO</b>)</a> -->
-		
-							</p>
-								<!-- Endovascular Neurointerventional Research in Neurosurgerical oncology and Epilepsy neurosurgery while providing Multimodal Neuronavigation and neuroimaging 
+
+				</p>
+				<!-- Endovascular Neurointerventional Research in Neurosurgerical oncology and Epilepsy neurosurgery while providing Multimodal Neuronavigation and neuroimaging 
 								My research interests lie in the application of cutting-edge techniques in organelle structural biology and bioengineering to develop new and more effective therapies for diseases. 
 								Specifically, I am interested in studying the therapeutic cells, radiobiological nuclides, and small molecules in precision medicine and health.
 								I also aim to explore novel approaches like MRI data processing, computational neurobiology and bioinformatics for macromolecular engineering and drug design. Additionally, I am fascinated by the study of organelles and their roles in cellular function and disease, 
@@ -310,36 +352,37 @@
 									<li>Neuroimaging</li>
 									<li>Neurodegeneration (Acute & Chronic)</li>
 								</ol> -->
-								
 
-							<!-- The Google Scholar icon -->
-								<a href="https://scholar.google.com/citations?user=So6NDwMAAAAJ&hl=en&gmla=AHoSzlVogObsCwq8L_Mhafnx38AZ6zy1RkwHpfatDN1zAPWc1nLFP-AucKhXcBLnghsT_H_Bu33zdLeidVG05uS-r7XXKL6WUQeP5hJLdWtz3Q/" class="icon fa-googlescholar">
-									<span class="label">Google Scholar</span>
-									<i class="ai ai-google-scholar ai-2x"></i>
-								</a>
-							<br>
 
-							<p>
-								<b>Research:</b> <a href="https://danieljgomez.org/#research">Projects</a><br>
-								<b>Lectures:</b> <a href="https://danieljgomez.org/#videos">Presentations</a><br>
-							</p>
-						</article>
+				<!-- The Google Scholar icon -->
+				<a href="https://scholar.google.com/citations?user=So6NDwMAAAAJ&hl=en&gmla=AHoSzlVogObsCwq8L_Mhafnx38AZ6zy1RkwHpfatDN1zAPWc1nLFP-AucKhXcBLnghsT_H_Bu33zdLeidVG05uS-r7XXKL6WUQeP5hJLdWtz3Q/"
+					class="icon fa-googlescholar">
+					<span class="label">Google Scholar</span>
+					<i class="ai ai-google-scholar ai-2x"></i>
+				</a>
+				<br>
 
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
-								<img src="images/genetic-futuristic--interface-technology.jpg" alt=""/>
-							</span>
-							<p>
-								<!-- A <br> tag puts in a break so that the text that follows it displays on
+				<p>
+					<b>Research:</b> <a href="https://danieljgomez.org/#research">Projects</a><br>
+					<b>Lectures:</b> <a href="https://danieljgomez.org/#videos">Presentations</a><br>
+				</p>
+			</article>
+
+			<!-- Here is the "Research" card. -->
+			<article id="research">
+				<h2 class="major">Research</h2>
+				<span class="image main">
+					<img src="images/genetic-futuristic--interface-technology.jpg" alt="" />
+				</span>
+				<p>
+					<!-- A <br> tag puts in a break so that the text that follows it displays on
 									the next line. -->
-								<b>Project IV: Mapping Exerkines Network Physiomes from MoTrPAC and GTEx in Human and Rats</b><br>
-									<u>Topic</u>: Endurance Exercise Training (EET) in Young Rats and Translational Human Biology<br>
-									<u>Major</u>: Genome Bioinformatics<br>
-									<strong><u>Thesis Lab</u></strong>: Professor and Chairman, Dr. Micahel P. Snyder <br>
+					<b>Project IV: Mapping Exerkines Network Physiomes from MoTrPAC and GTEx in Human and Rats</b><br>
+					<u>Topic</u>: Endurance Exercise Training (EET) in Young Rats and Translational Human Biology<br>
+					<u>Major</u>: Genome Bioinformatics<br>
+					<strong><u>Thesis Lab</u></strong>: Professor and Chairman, Dr. Micahel P. Snyder <br>
 
-									<!--
+					<!--
 									<br>
 									My research expects to reveal novel molecules and mechanisms involved in exercise by a more comprehensive view of the multi-omics landscape of exerkines 
 									to the research community. I'll contribute to the molecular map of the molecular transducers involved in physical activity. 
@@ -350,82 +393,133 @@
 									<br>
 									-->
 
-									Timeline: Present - December 2024<br>
-									Stanford Genome Technology Center (SGTC)<br>
-									Department of Genetics, Stanford University School of Medicine <br>
-									Department of Biological Sciences, California State University, East Bay
-								<!-- Project description, including further links to posters, talks, publications. -->
-							</p>
+					Timeline: Present - December 2024<br>
+					Stanford Genome Technology Center (SGTC)<br>
+					Department of Genetics, Stanford University School of Medicine <br>
+					Department of Biological Sciences, California State University, East Bay
+					<!-- Project description, including further links to posters, talks, publications. -->
+				</p>
 
-							<p>
-								<b>Project III: Virophysics (Computational Structural Predictions) and Organelle Structural Biology</b><br>
-								Institutions: SLAC National Accelerator Laboratory, Stanford University, California State University, East Bay<br>
-								<u>Theme</u>: This research project focuses on exploring the field of virophysics with an emphasis on computational structural predictions. Additionally, the project delves into organelle structural biology to understand the intricate architecture of cellular components and its implications in various physiological processes.<br>
-								<u>Summary</u>: The project involves the application of computational methods to predict the structural dynamics of viral components, contributing to the field of virophysics. Simultaneously, the investigation into organelle structural biology aims to unravel the complexities of cellular structures and their roles in health and disease. The project integrates experimental and computational approaches to advance our understanding of virus-host interactions and cellular architecture.
-							
-							<h5>Publications</h5>
-								<ol>
-									<li><b>Gómez DJ*</b>. (2023) <a href="https://www.mdpi.com/2673-9976/21/1/15" class="external-link">'Untangling the Microscopic World of Organelles, Cells, Tissues, and Organs: A Focus on the Dysfunctional Golgi Apparatus in Disease Research †'.</a> <i>Biology and Life Sciences Forum</i>.</li>
-									<li><b>Gómez DJ*</b>. (2022) <a href = "http://dx.doi.org/10.13140/RG.2.2.11957.35041", class="external-link"> 'Unraveling the Structural Dynamics of Human Pegivirus-1 RNA-Dependent RNA Polymerase Using Computational Methods'</a>. <i>ResearchGate</i>.</li>
-									<li><b>Gómez D*</b>. (2022) <a href="https://www.preprints.org/manuscript/202210.0383/v2">'Pioneering Organelle Structural Biology: Golgi Apparatus Dysfunction in Parkinson’s Disease, Neurodevelopmental Disorders, and Cancer'</a>. <i>Preprints</i>. 2022100383. </li>		
-								</ol>
-							</p>
+				<p>
+					<b>Project III: Virophysics (Computational Structural Predictions) and Organelle Structural
+						Biology</b><br>
+					Institutions: SLAC National Accelerator Laboratory, Stanford University, California State
+					University, East Bay<br>
+					<u>Theme</u>: This research project focuses on exploring the field of virophysics with an emphasis
+					on computational structural predictions. Additionally, the project delves into organelle structural
+					biology to understand the intricate architecture of cellular components and its implications in
+					various physiological processes.<br>
+					<u>Summary</u>: The project involves the application of computational methods to predict the
+					structural dynamics of viral components, contributing to the field of virophysics. Simultaneously,
+					the investigation into organelle structural biology aims to unravel the complexities of cellular
+					structures and their roles in health and disease. The project integrates experimental and
+					computational approaches to advance our understanding of virus-host interactions and cellular
+					architecture.
 
-							<p>
-								<b>Project II: Coinfections and Cancer: Host-Pathogen Interactions in Dendritic Cells and the Host-Virus-Tumor Interface</b><br>
-								Institutions: Drexel University School of Medicine, California State University, East Bay
-								<u>Theme</u>: This research project focuses on investigating the mechanisms of host-pathogen interactions in the context of disease development. The project involves both experimental and computational methods to illustrate the molecular and cellular basis of disease pathogenesis.<br>
-								<u>Summary</u>: The research project encompasses several posters and publications that highlight different aspects of host-pathogen interactions and organelle dysfunction in disease research. The posters presented at the Microbiology Student Group Symposium and the AACR-JCA Joint Conference focus on co-infection and cancer, specifically the role of viral oncogenesis in liver, blood, and brain cancer by host-pathogen interactions. 
-								The publications delve into the co-infection and cancer in dendritic cells as well as other oncogenic viruses. 
-								The project aims to advance our understanding of the coinfection and cancer mechanisms underlying their disease development and to identify potential targets for therapeutic intervention.
-								<h5>Posters</h5>
-								<ol> 
-									<li><b>Gómez DJ* </b>. <a href="/assets/data/PJ_DG_UCB-Micro-Sym041523.pdf">22nd Microbiology Student Group Symposium Poster</a> / <a href = "", class="external-link"></a>Poster presentation at 22nd Annual Microbiology Student Symposium in Krutch Theater at Clark Kerr UC Berkeley Campus (2023, In-person)</li>
-									<li><b>Gómez DJ</b>, Mulherkar T, Sandel G, Jain P.*</b> <a href = "https://youtu.be/LwoqAyHLcwk", class="external-link">"Co-infection and cancer: Viral oncogenesis in humans result in liver, blood, and brain cancer by host-pathogen interactions"</a> Poster presentation at 12th Annual AACR-JCA Joint Conference. (2022, Virtual)</li>
-								</ol>
-								<h5>Publications</h5>
-								<ol>
-									<li><b>Gómez DJ+</b>, Mulherkar T+, Sandel G, and Jain P*. (2022) <a href="https://doi.org/10.3390/v14092037" class="external-link">'Co-Infection and Cancer: Host–Pathogen Interaction between Dendritic Cells and HIV-1, HTLV-1, and Other Oncogenic Viruses'</a>. <i>Viruses</i>.</li>
-								</ol>
-							</p>
-							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
+				<h5>Publications</h5>
+				<ol>
+					<li><b>Gómez DJ*</b>. (2023) <a href="https://www.mdpi.com/2673-9976/21/1/15"
+							class="external-link">'Untangling the Microscopic World of Organelles, Cells, Tissues, and
+							Organs: A Focus on the Dysfunctional Golgi Apparatus in Disease Research †'.</a> <i>Biology
+							and Life Sciences Forum</i>.</li>
+					<li><b>Gómez DJ*</b>. (2022) <a href="http://dx.doi.org/10.13140/RG.2.2.11957.35041" ,
+							class="external-link"> 'Unraveling the Structural Dynamics of Human Pegivirus-1
+							RNA-Dependent RNA Polymerase Using Computational Methods'</a>. <i>ResearchGate</i>.</li>
+					<li><b>Gómez D*</b>. (2022) <a
+							href="https://www.preprints.org/manuscript/202210.0383/v2">'Pioneering Organelle Structural
+							Biology: Golgi Apparatus Dysfunction in Parkinson’s Disease, Neurodevelopmental Disorders,
+							and Cancer'</a>. <i>Preprints</i>. 2022100383. </li>
+				</ol>
+				</p>
+
+				<p>
+					<b>Project II: Coinfections and Cancer: Host-Pathogen Interactions in Dendritic Cells and the
+						Host-Virus-Tumor Interface</b><br>
+					Institutions: Drexel University School of Medicine, California State University, East Bay
+					<u>Theme</u>: This research project focuses on investigating the mechanisms of host-pathogen
+					interactions in the context of disease development. The project involves both experimental and
+					computational methods to illustrate the molecular and cellular basis of disease pathogenesis.<br>
+					<u>Summary</u>: The research project encompasses several posters and publications that highlight
+					different aspects of host-pathogen interactions and organelle dysfunction in disease research. The
+					posters presented at the Microbiology Student Group Symposium and the AACR-JCA Joint Conference
+					focus on co-infection and cancer, specifically the role of viral oncogenesis in liver, blood, and
+					brain cancer by host-pathogen interactions.
+					The publications delve into the co-infection and cancer in dendritic cells as well as other
+					oncogenic viruses.
+					The project aims to advance our understanding of the coinfection and cancer mechanisms underlying
+					their disease development and to identify potential targets for therapeutic intervention.
+				<h5>Posters</h5>
+				<ol>
+					<li><b>Gómez DJ* </b>. <a href="/assets/data/PJ_DG_UCB-Micro-Sym041523.pdf">22nd Microbiology
+							Student Group Symposium Poster</a> / <a href="" , class="external-link"></a>Poster
+						presentation at 22nd Annual Microbiology Student Symposium in Krutch Theater at Clark Kerr UC
+						Berkeley Campus (2023, In-person)</li>
+					<li><b>Gómez DJ</b>, Mulherkar T, Sandel G, Jain P.*</b> <a href="https://youtu.be/LwoqAyHLcwk" ,
+							class="external-link">"Co-infection and cancer: Viral oncogenesis in humans result in liver,
+							blood, and brain cancer by host-pathogen interactions"</a> Poster presentation at 12th
+						Annual AACR-JCA Joint Conference. (2022, Virtual)</li>
+				</ol>
+				<h5>Publications</h5>
+				<ol>
+					<li><b>Gómez DJ+</b>, Mulherkar T+, Sandel G, and Jain P*. (2022) <a
+							href="https://doi.org/10.3390/v14092037" class="external-link">'Co-Infection and Cancer:
+							Host–Pathogen Interaction between Dendritic Cells and HIV-1, HTLV-1, and Other Oncogenic
+							Viruses'</a>. <i>Viruses</i>.</li>
+				</ol>
+				</p>
+				<p>
+					<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
 								-->
-								<b>Project I: Undergraduate Research Opportunities Program (UROP)</b><br>
-								Institutions: John A. Burns School of Medicine, University of Hawai'i at Mānoa 
-								<u>Title</u>: Interleukin-17 Production in CNS by Infiltrating T Cells and Glial Cells in the HIV-1-Infected Brain<br>
-								<u>Summary</u>: Despite effective combined anti-retroviral therapy (cART) for HIV-1-infected individuals, neurocognitive complications persist in patients, leading to negative impacts on daily functioning. The central nervous system (CNS) is affected in multiple ways during HIV infection, as HIV-infected cells cross the blood-brain-barrier (BBB) and initiate events causing CNS damage and neurocognitive problems. This study aims to investigate the role of interleukin-17 (IL-17) in HIV-associated neurocognitive disorders (HAND), as IL-17 can disrupt the BBB. The researchers will analyze brain specimens and cerebrospinal fluid (CSF) samples from HAND patients with HIV encephalitis (HIVE) and compare them to samples from HIV-infected individuals with normal cognition (NC). The hypothesis is that IL-17A will be found in subcortical structures, specifically in the medium-spiny neurons of the basal ganglia and interneurons in the hippocampus, and that astrocytic secretion of the TH17 cell chemokine (CCL20) and cytokine (IL-17) will be detected in CSF samples of HAND patients with HIVE.
-								<!-- Project description, including further links to posters, talks, publications. -->
-								<h5>Proposal</h5>
-								<ol>
-									<li><b>Gómez DJ*</b>, Shiramizu, B. (2013) <a href="/assets/data/UROPP.pdf">'IL-17 in HIV-1-Infected CNS'.</a> 28 Mar. 2013. JABSOM, UH Mānoa, Honolulu, HI.<i> TRMD499: Directed Research and Reading</i>.</li>
-								</ol>
-							</p>
+					<b>Project I: Undergraduate Research Opportunities Program (UROP)</b><br>
+					Institutions: John A. Burns School of Medicine, University of Hawai'i at Mānoa
+					<u>Title</u>: Interleukin-17 Production in CNS by Infiltrating T Cells and Glial Cells in the
+					HIV-1-Infected Brain<br>
+					<u>Summary</u>: Despite effective combined anti-retroviral therapy (cART) for HIV-1-infected
+					individuals, neurocognitive complications persist in patients, leading to negative impacts on daily
+					functioning. The central nervous system (CNS) is affected in multiple ways during HIV infection, as
+					HIV-infected cells cross the blood-brain-barrier (BBB) and initiate events causing CNS damage and
+					neurocognitive problems. This study aims to investigate the role of interleukin-17 (IL-17) in
+					HIV-associated neurocognitive disorders (HAND), as IL-17 can disrupt the BBB. The researchers will
+					analyze brain specimens and cerebrospinal fluid (CSF) samples from HAND patients with HIV
+					encephalitis (HIVE) and compare them to samples from HIV-infected individuals with normal cognition
+					(NC). The hypothesis is that IL-17A will be found in subcortical structures, specifically in the
+					medium-spiny neurons of the basal ganglia and interneurons in the hippocampus, and that astrocytic
+					secretion of the TH17 cell chemokine (CCL20) and cytokine (IL-17) will be detected in CSF samples of
+					HAND patients with HIVE.
+					<!-- Project description, including further links to posters, talks, publications. -->
+				<h5>Proposal</h5>
+				<ol>
+					<li><b>Gómez DJ*</b>, Shiramizu, B. (2013) <a href="/assets/data/UROPP.pdf">'IL-17 in HIV-1-Infected
+							CNS'.</a> 28 Mar. 2013. JABSOM, UH Mānoa, Honolulu, HI.<i> TRMD499: Directed Research and
+							Reading</i>.</li>
+				</ol>
+				</p>
 
-							<p>
-								<b>Volunteer Researching</b><br>
-								[Summer 2022 - Present] Virtual Volunteer Associate Fellow, Microbiology & Immunology, Drexel College of Medicine <br>
-								[Spring 2014] Research Assistant, Anesthesia, UC San Diego School of Medicine <br>
-								[Fall 2020] Research Assistant, Physiological Sciences, UF College of Veterinary Medicine <br>
-							</p>
+				<p>
+					<b>Volunteer Researching</b><br>
+					[Summer 2022 - Present] Virtual Volunteer Associate Fellow, Microbiology & Immunology, Drexel
+					College of Medicine <br>
+					[Spring 2014] Research Assistant, Anesthesia, UC San Diego School of Medicine <br>
+					[Fall 2020] Research Assistant, Physiological Sciences, UF College of Veterinary Medicine <br>
+				</p>
 
 
-						</article>
-							<!-- Here is the "Videos" card. -->
-							<article id="videos">
-								<h2 class="major">Presentations</h2>
-								<span class="image main">
-									<img src="images/DGS_lectures-pic.jpeg" alt=""/>
-								</span>
+			</article>
+			<!-- Here is the "Videos" card. -->
+			<article id="videos">
+				<h2 class="major">Presentations</h2>
+				<span class="image main">
+					<img src="images/DGS_lectures-pic.jpeg" alt="" />
+				</span>
 
-							<p>
-								<b><i>Presentations</i></b><br>
+				<p>
+					<b><i>Presentations</i></b><br>
 
-								<h4>Gene Editing, Therapy & Genome Engineering</h4>
-								<ul>
+				<h4>Gene Editing, Therapy & Genome Engineering</h4>
+				<ul>
 
-									<!-- "Devlivery of gene editing therapeutics" Kevadiya et al 2023
+					<!-- "Devlivery of gene editing therapeutics" Kevadiya et al 2023
 									Neurology of AIDS (Gendelman H)
 									<h4>Nanomedicine</h4>
 									<ul>
@@ -436,47 +530,63 @@
 										<li>Microfluidics for LNPs deliver</li>
 									-->
 
-									<li><b>CRISPR</b> <a href="https://youtu.be/iRMK5vrByn4">: Upgrades</a></li>
-									<li><b>CRISPR/Cas9</b> <a href="https://youtu.be/cdT9DvAbT0o">Paper Figure Description</a></li>
-									<li><b>RLR</b> <a href="https://youtu.be/CR46YKTxfgo">Retron Library Recombineering (RLR): Going beyond CRISPR</a></li>
-									<li><b>Chemistry 2022</b> <a href="https://youtu.be/b1CYIOIL4gI">Ribozyme Mechanisms and Clinical Gene Therapy</a></li>
-								</ul>
+					<li><b>CRISPR</b> <a href="https://youtu.be/iRMK5vrByn4">: Upgrades</a></li>
+					<li><b>CRISPR/Cas9</b> <a href="https://youtu.be/cdT9DvAbT0o">Paper Figure Description</a></li>
+					<li><b>RLR</b> <a href="https://youtu.be/CR46YKTxfgo">Retron Library Recombineering (RLR): Going
+							beyond CRISPR</a></li>
+					<li><b>Chemistry 2022</b> <a href="https://youtu.be/b1CYIOIL4gI">Ribozyme Mechanisms and Clinical
+							Gene Therapy</a></li>
+				</ul>
 
-								<h4>Computational Biology + Molecular Biology</h4>
-								<ul>
-									<!-- <li>Exercise Bioinformatics</li>
+				<h4>Computational Biology + Molecular Biology</h4>
+				<ul>
+					<!-- <li>Exercise Bioinformatics</li>
 
 									<li>Precision bioinformatics in Clinical Science</li> -->
 
-									<li><b>CSU Northridge Seminar 2022 </b><a href = "https://youtu.be/7ystwS4R3nY", class="external-link">Data Driven Discovery of Computational Biology and Modern Molecular Biology</a></li>
-						
-								</ul>
+					<li><b>CSU Northridge Seminar 2022 </b><a href="https://youtu.be/7ystwS4R3nY" ,
+							class="external-link">Data Driven Discovery of Computational Biology and Modern Molecular
+							Biology</a></li>
 
-								<h4>Upcoming: Precision bioinformatics</h4>
-									<ol>
-										<li>Advancing Your Expertise: Bioinformatics Training for NGS and Single-Cell RNA Sequencing</li>
-										<li>Expanding Horizons: Bioinformatics Training for Mass Spectrometry and Spatial Biology</li>
-										<li>Advancing Healthcare: Bioinformatics Training for Precision and Preventative Medicine</li>
-									</ol>
+				</ul>
 
-								<h4>Structural Biology</h4>
-								<ul>
-									<li><b>Cells 2023 </b><a href="https://youtu.be/NJIZB698xJw">Pioneering Organelle Structural Biology</a> at <a href = "https://sciforum.net/event/cells2023#session2539", class="external-link">Cells, Cells and Nothing but Cells: Discoveries, Challenges and Directions</a><br>  Presenter & Author / <a href ="https://www.mdpi.com/2673-9976/21/1/15">Abstract Publication</a></li>
-									<li><b>Grand Slam 2023 </b><a href = "https://youtu.be/GV4SU7d03Sc", class="external-link">Unraveling the Structural Dynamics of HPgV-1 NS5B Using Computational Methods</a></li>
-									<li><b>Chemistry 2022 </b><a href = "https://youtu.be/b1CYIOIL4gI", class="external-link">Ribozyme Mechanisms and Clinical Gene Therapy</a></li>
-									<li><b>CMB Seminar 2022 </b><a href = "https://youtu.be/Q_MD4_35oDE", class="external-link">Basic Research Presentation - HTLV-1 Intasome Structure</a><br></li>
-								</ul>
-								<h4>Cancer Neuroscience & Tumor Virology</h4>
-								<ul>
-									<li><b>Cancer Webinar 2022 </b><a href = "https://youtu.be/Y7ZAhg9Oty8", class="external-link">A Human Retrovirus in Neuro-Oncology, Interventional Conductome Studies, and Theragnostics in Nuclear Medicine</a></li>
-									<li><b>Drexel Lab Talk </b><a href = "https://youtu.be/xGstZqdwm0g", class="external-link">Cancers: PCNSL outcome in EBV+/HIV Coinfection and HTLV connection in HIV/AIDS patients</a></li>
-									<li><b>CMB Seminar 2022 </b><a href = "https://youtu.be/Q_MD4_35oDE", class="external-link">Basic Research Presentation - HTLV-1 Intasome Structure</a></li>
-									<li><b>CMB Seminar 2022 </b><a href = "https://youtu.be/C4HdrdekAPw", class="external-link">HTLV Introductory Presentation</a></li>
-								</ul>
-							</p>
-						</article>
-						
-						<!-- Here is the "Gallery" card. 
+				<h4>Upcoming: Precision bioinformatics</h4>
+				<ol>
+					<li>Advancing Your Expertise: Bioinformatics Training for NGS and Single-Cell RNA Sequencing</li>
+					<li>Expanding Horizons: Bioinformatics Training for Mass Spectrometry and Spatial Biology</li>
+					<li>Advancing Healthcare: Bioinformatics Training for Precision and Preventative Medicine</li>
+				</ol>
+
+				<h4>Structural Biology</h4>
+				<ul>
+					<li><b>Cells 2023 </b><a href="https://youtu.be/NJIZB698xJw">Pioneering Organelle Structural
+							Biology</a> at <a href="https://sciforum.net/event/cells2023#session2539" ,
+							class="external-link">Cells, Cells and Nothing but Cells: Discoveries, Challenges and
+							Directions</a><br> Presenter & Author / <a
+							href="https://www.mdpi.com/2673-9976/21/1/15">Abstract Publication</a></li>
+					<li><b>Grand Slam 2023 </b><a href="https://youtu.be/GV4SU7d03Sc" , class="external-link">Unraveling
+							the Structural Dynamics of HPgV-1 NS5B Using Computational Methods</a></li>
+					<li><b>Chemistry 2022 </b><a href="https://youtu.be/b1CYIOIL4gI" , class="external-link">Ribozyme
+							Mechanisms and Clinical Gene Therapy</a></li>
+					<li><b>CMB Seminar 2022 </b><a href="https://youtu.be/Q_MD4_35oDE" , class="external-link">Basic
+							Research Presentation - HTLV-1 Intasome Structure</a><br></li>
+				</ul>
+				<h4>Cancer Neuroscience & Tumor Virology</h4>
+				<ul>
+					<li><b>Cancer Webinar 2022 </b><a href="https://youtu.be/Y7ZAhg9Oty8" , class="external-link">A
+							Human Retrovirus in Neuro-Oncology, Interventional Conductome Studies, and Theragnostics in
+							Nuclear Medicine</a></li>
+					<li><b>Drexel Lab Talk </b><a href="https://youtu.be/xGstZqdwm0g" , class="external-link">Cancers:
+							PCNSL outcome in EBV+/HIV Coinfection and HTLV connection in HIV/AIDS patients</a></li>
+					<li><b>CMB Seminar 2022 </b><a href="https://youtu.be/Q_MD4_35oDE" , class="external-link">Basic
+							Research Presentation - HTLV-1 Intasome Structure</a></li>
+					<li><b>CMB Seminar 2022 </b><a href="https://youtu.be/C4HdrdekAPw" , class="external-link">HTLV
+							Introductory Presentation</a></li>
+				</ul>
+				</p>
+			</article>
+
+			<!-- Here is the "Gallery" card. 
 						<article id="gallery">
 							<h2 class="major">Gallery</h2>
 							<body>
@@ -598,171 +708,175 @@
 							</body>		
 						</article>
 						-->
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/silhouette-1152x578.png" alt=""/>
-							</span>
-							<p>
-								<b>Teaching Assistant/Associate and Tutoring</b><br>
-								[Fall 2022] Clinical Microbiology, CSU East Bay <br>
-								[Fall 2022] Human Anatomy and Physiology, CSU East Bay <br>
-								[2011 - 2014] Private Tutor: (O. Chem) Chemistry and Biology <br>
-								[Summer 2011] Tutor, Learning Emporium, College of Natural Sciences, UH Manoa <br>
-								[Spring 2011] General Chemistry I Lab, University of Hawaii at Mānoa <br>
-							</p>
-							<p>
-								<b>Mentorship</b><br>
-								[2022-23] CSUEB Biology students <br>
-								[2022- ] UF MHPMP Mentor, Pre-Health Club <br>
-								MHPMP (Minority Health Professional Mentorship Program)
-							</p>
-							<p>
-								<b>Outreach and Volunteering</b><br>
-								[2022-23] Volunteer Reviewer Board Member, MDPI <br>
-								Journals: cells, cancers, viruses, IJMS, pharmaceuticals <br>
-								[2022-] Co-Founder, Vice President of STEM Programs, Myplaceisahappy1 <br>
-								Scientific Programs and Diversity and Health Equity <br>
-								[2022] St. Michael's Church <br>
-								[2021] Assistant Lighting Designer, College of Sequoias <br>
-								[2014] Comunity Wellness Advocate, American Cancer Society <br>
-								[2013] Physician Shadow, City of Hope <br>
-							</p>
-							<p>
-								<b>Equity & Inclusion</b><br>
-								Society of Latinx Engineers (SOLE) "Estanfor"<br> 
-								Chicano Latino Staff & Faculty Association (CLSFA) <br>
-								Spanish in Healthcare (SHC) <br>
-								Health Equity Research (HER) Lab Latinx Community 
-							</p>
-						</article>
+			<!-- Here is the "Community" card. -->
+			<article id="community">
+				<h2 class="major">Community</h2>
+				<span class="image main">
+					<img src="images/silhouette-1152x578.png" alt="" />
+				</span>
+				<p>
+					<b>Teaching Assistant/Associate and Tutoring</b><br>
+					[Fall 2022] Clinical Microbiology, CSU East Bay <br>
+					[Fall 2022] Human Anatomy and Physiology, CSU East Bay <br>
+					[2011 - 2014] Private Tutor: (O. Chem) Chemistry and Biology <br>
+					[Summer 2011] Tutor, Learning Emporium, College of Natural Sciences, UH Manoa <br>
+					[Spring 2011] General Chemistry I Lab, University of Hawaii at Mānoa <br>
+				</p>
+				<p>
+					<b>Mentorship</b><br>
+					[2022-23] CSUEB Biology students <br>
+					[2022-23] UF MHPMP Mentor, Pre-Health Club <br>
+					MHPMP (Minority Health Professional Mentorship Program)
+				</p>
+				<p>
+					<b>Outreach and Volunteering</b><br>
+					[2022-23] Volunteer Reviewer Board Member, MDPI <br>
+					Journals: cells, cancers, viruses, IJMS, pharmaceuticals <br>
+					[2022-] Vice President of STEM Programs, Myplaceisahappy1 <br>
+					Scientific Programs and Diversity and Health Equity <br>
+					[2022] St. Michael's Church <br>
+					[2021] Assistant Lighting Designer, College of Sequoias <br>
+					[2014] Comunity Wellness Advocate, American Cancer Society <br>
+					[2013] Physician Shadow, City of Hope <br>
+				</p>
+				<p>
+					<b>Equity & Inclusion</b><br>
+					Society of Latinx Engineers (SOLE) "Estanfor"<br>
+					Chicano Latino Staff & Faculty Association (CLSFA) <br>
+					Spanish in Healthcare (SHC) <br>
+					Health Equity Research (HER) Lab Latinx Community
+				</p>
+			</article>
 
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email:</b> 
-								gomezscientist0@gmail.com
-							</p>
-							<p> 
-								<b>Address:</b>
-								3165 Porter Dr, Stanford, CA 94304
-							</p>
+			<!-- Here is a the "Contact" card. -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<p>
+					<b>Email:</b>
+					gomezscientist0@gmail.com
+				</p>
+				<p>
+					<b>Address:</b>
+					3165 Porter Dr, Stanford, CA 94304
+				</p>
 
-							<!-- 	Here are the fancy icons that link to your social media.
+				<!-- 	Here are the fancy icons that link to your social media.
 								These icons are rendered using Font Awesome fonts, and you can find more icons
 								here: https://fontawesome.com/icons
 							-->
-							<ul class="icons">
+				<ul class="icons">
 
 
-							<!-- The ORCiD icon  -->
-							<li>
-								<a href="https://orcid.org/0000-0002-5443-1813" class="icon fa-brands fa-orcid">
-									<span class="label">ORCiD</span>
-								</a>
-							</li>
+					<!-- The ORCiD icon  -->
+					<li>
+						<a href="https://orcid.org/0000-0002-5443-1813" class="icon fa-brands fa-orcid">
+							<span class="label">ORCiD</span>
+						</a>
+					</li>
 
-							<!-- The LinkedIn icon -->
-								<li>
-									<a href="https://www.linkedin.com/in/danieljgomez1/" class="icon fa-linkedin">
-										<span class="label">LinkedIn</span>
-									</a>
-								</li>
+					<!-- The LinkedIn icon -->
+					<li>
+						<a href="https://www.linkedin.com/in/danieljgomez1/" class="icon fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
 
-							<!-- The ResearchGate icon  -->
-							<li>
-								<a href="https://www.researchgate.net/profile/Daniel-Gomez-Santos" class="icon fa-brands fa-researchgate">
-									<span class="label">ResearchGate</span>
-								</a>
-							</li>	
+					<!-- The ResearchGate icon  -->
+					<li>
+						<a href="https://www.researchgate.net/profile/Daniel-Gomez-Santos"
+							class="icon fa-brands fa-researchgate">
+							<span class="label">ResearchGate</span>
+						</a>
+					</li>
 
-							<!-- The Google Scholar icon -->
-								<li>
-									<a href="https://scholar.google.com/citations?user=So6NDwMAAAAJ&hl=en&gmla=AHoSzlVogObsCwq8L_Mhafnx38AZ6zy1RkwHpfatDN1zAPWc1nLFP-AucKhXcBLnghsT_H_Bu33zdLeidVG05uS-r7XXKL6WUQeP5hJLdWtz3Q/" class="icon fa-googlescholar">
-										<span class="label">Google Scholar</span>
-									 <i class="ai ai-google-scholar  ai-1x"></i>
-									</a>
-								</li>
+					<!-- The Google Scholar icon -->
+					<li>
+						<a href="https://scholar.google.com/citations?user=So6NDwMAAAAJ&hl=en&gmla=AHoSzlVogObsCwq8L_Mhafnx38AZ6zy1RkwHpfatDN1zAPWc1nLFP-AucKhXcBLnghsT_H_Bu33zdLeidVG05uS-r7XXKL6WUQeP5hJLdWtz3Q/"
+							class="icon fa-googlescholar">
+							<span class="label">Google Scholar</span>
+							<i class="ai ai-google-scholar  ai-1x"></i>
+						</a>
+					</li>
 
-							<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/biodangomez" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-			
-							<!-- The YouTube icon -->
-								<li>
-									<a href="https://www.youtube.com/@ScientistGomez1/videos" class="icon fa-youtube">
-										<span class="label">YouTube</span>
-										<!-- <i class="fa-brands  fa-youtube"></i> --> 
-									</a>
-								</li>	
-						
-							<!-- The Twitter icon -->
-								<li>
-										<!-- Note that you need to change the link to point to your page.
+					<!-- The GitHub icon -->
+					<li>
+						<a href="https://github.com/danieljgmez" class="icon fa-github">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+
+					<!-- The YouTube icon -->
+					<li>
+						<a href="https://www.youtube.com/@ScientistGomez1/videos" class="icon fa-youtube">
+							<span class="label">YouTube</span>
+							<!-- <i class="fa-brands  fa-youtube"></i> -->
+						</a>
+					</li>
+
+					<!-- The Twitter icon -->
+					<li>
+						<!-- Note that you need to change the link to point to your page.
 										Replace "#" with your Twitter profile page. -->
-									
-									<a href="https://twitter.com/biodjgomez" class="icon fa-twitter">
-										<span class="label">Twitter</span>
-									</a>
-								</li>
-							<!-- The *mastodon icon -->
-								<li>
-									<a href="https://mastodon.social/dannygomez/" class="icon fa-mastodon">
-										<span class="label">mastodon</span>
-									</a>
-								</li>
-							<!-- The Instagram icon -->
-								<li>
-									<!-- Note that you need to change the link to point to your page.
+
+						<a href="https://twitter.com/dgomezbio" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a>
+					</li>
+					<!-- The *mastodon icon -->
+					<li>
+						<a href="https://mastodon.social/dannygomez/" class="icon fa-mastodon">
+							<span class="label">mastodon</span>
+						</a>
+					</li>
+					<!-- The Instagram icon -->
+					<li>
+						<!-- Note that you need to change the link to point to your page.
 										Replace "#" with your Twitter profile page. -->
-									<a href="https://instagram.com/danieljgomez_" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li> 
-								<!-- We can add a new icon by searching on the Font Awesome website
+						<a href="https://instagram.com/dangomezsc" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a>
+					</li>
+					<!-- We can add a new icon by searching on the Font Awesome website
 									for the correct class name and inserting it as a new list item.
 
 									We found "envelope" here: https://fontawesome.com/icons/envelope
 								-->
-								<!-- <li>
+					<!-- <li>
 									<a href="#" class="icon fa-envelope">
 										<span class="label">Email</span>
 												<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-xrIbhjRG/CJGpJyKpj6V9llmFxz1nt+K4jJ4k5V7/sI99KaQbnzJcCB3F2wBJGpq" crossorigin="anonymous">
 															<i class="fa-brands fa-researchgate"></i>
 									</a>
 								</li> -->
-							</ul>
-						</article>
-					</div>
+				</ul>
+			</article>
+		</div>
 
-					<!-- This is the footer that appears at the bottom of the page -->
-					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
+		<!-- This is the footer that appears at the bottom of the page -->
+		<footer id="footer">
+			<!-- 	You can change "Untitled" to your name to show everyone that
 							this is your work.
 						-->
-						<p class="copyright">&copy; 2023. Daniel Joseph Gomez. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+			<p class="copyright">&copy; 2023. Daniel Joseph Gomez. Design: <a href="https://html5up.net">HTML5 UP</a>.
+			</p>
+		</footer>
 
-			</div>
-			<!--	This is the background image of the site.
+	</div>
+	<!--	This is the background image of the site.
 				All configuration of the background is done with CSS.
 				Look in the file assets/css/main.css and search for "#bg" to
 				see how this element is styled. Look for comments pointing 
 				to where you can set a new background image.
 			-->
-			<div id="bg"></div>
+	<div id="bg"></div>
 
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
