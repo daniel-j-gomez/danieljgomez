@@ -1097,7 +1097,11 @@ button {
 	-webkit-transform: scale(1.0);
 	-ms-transform: scale(1.0);
 	transform: scale(1.0);
+	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
+	-moz-backface-bisibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
